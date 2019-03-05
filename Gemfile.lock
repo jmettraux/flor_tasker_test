@@ -1,0 +1,39 @@
+GIT
+  remote: https://github.com/floraison/flor
+  revision: 3265252ad583bd5bfda63c101cde23cec1747d9b
+  specs:
+    flor (0.16.2)
+      dense (~> 1.1, >= 1.1.6)
+      fugit (~> 1.1, >= 1.1.8)
+      munemo (~> 1.0, >= 1.0.1)
+      raabro (~> 1.1, >= 1.1.5)
+      sequel (~> 5)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    concurrent-ruby (1.1.4)
+    dense (1.1.6)
+      raabro (~> 1.1, >= 1.1.5)
+    et-orbi (1.1.7)
+      tzinfo
+    fugit (1.1.8)
+      et-orbi (~> 1.1, >= 1.1.7)
+      raabro (~> 1.1)
+    munemo (1.0.1)
+    pg (1.1.4)
+    raabro (1.1.6)
+    sequel (5.18.0)
+    tzinfo (2.0.0)
+      concurrent-ruby (~> 1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  flor!
+  pg
+  sequel (= 5.18.0)
+
+BUNDLED WITH
+   1.16.2

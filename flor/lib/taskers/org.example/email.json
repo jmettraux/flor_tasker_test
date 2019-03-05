@@ -1,0 +1,4 @@
+
+#require: 'ftt/taskers/email'
+class: 'EmailTasker'
+
